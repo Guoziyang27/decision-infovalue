@@ -2,13 +2,7 @@
 
 A Python toolkit for information value analysis.
 
-## Installation
-
-```bash
-pip install infovalue
-```
-
-## Development Setup
+## Getting Started
 
 1. Clone the repository:
 ```bash

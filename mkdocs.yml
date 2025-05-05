@@ -1,0 +1,26 @@
+site_name: Decision InfoValue Toolkit
+site_description: A toolkit for analyzing decision information value.
+site_author: Ziyang Guo
+site_url: https://guoziyang27.github.io/decision-infovalue
+
+theme:
+  name: mkdocs
+  palette:
+    primary: indigo
+    accent: blue
+
+nav:
+  - Home: index.md
+  - Installation: installation.md
+  - Usage: usage.md
+  - API Reference: api.md
+  - Datasets: datasets.md
+  - Examples: examples.md
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - footnotes
+  - meta
+  - toc:
+      permalink: true

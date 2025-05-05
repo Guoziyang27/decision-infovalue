@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "decision_infovalue"
+version = "0.1.0"
+authors = [
+    { name = "Guo Ziyang", email = "ziyang.guo@northwestern.edu" },
+    { name = "Yifan Wu", email = "yifan.wu@u.northwestern.edu" },
+    { name = "Jason Hartline", email = "hartline@northwestern.edu" },
+    { name = "Jessica Hullman", email = "jhullman@northwestern.edu" },
+]
+description = "A toolkit for information value analysis in decision making tasks"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/guoziyang27/decision-infovalue"
+"Bug Tracker" = "https://github.com/guoziyang27/decision-infovalue/issues"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-v --cov=decision_infovalue --cov-report=term-missing" 
